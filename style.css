@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    background-color: rgba(52, 129, 52, 0.808);
+}
+
+h1{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.brasao-justica-eleiroral{
+    display: flex;
+    align-items: center;
+}
+
+#brasao{
+    width: 300px;
+    margin: 40px 0px;
+    margin-left: -40px;
+}
+
+#number{
+    width: 300px;
+    height: 30px;
+    margin: 20px 0px;
+    border-radius: 20px;
+}
+
+.apresentacao-candidatos{
+    background-color:  rgb(52, 129, 52);
+}
+
+.urna{
+    background-color: aliceblue;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+    width: 700px;
+    align-items: center;
+    margin: auto;
+
+}
+
+.justica-eleitoral{
+    padding-top: 23px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#candidato{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 250px
+}
+
+.bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.808);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
+    padding: 20px 0px;
+    
+}
+
+.bot-items{
+    width: 90px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#corrige{
+    color:black;
+    background-color: rgb(184, 54, 36);
+    width: 150px;
+    padding:20px;
+    border-radius: 20px;
+}
+
+.confirmar{
+    color:aliceblue;
+    background-color: green;
+    width: 150px;
+    padding:20px;
+    border-radius: 20px;
+}
+
+.ordem{
+    display: flex;
+}
+
+#ultima{
+    margin-left: 134px;
+}
+
+.bot-confirma-corrige{
+    padding: 5px;
+}

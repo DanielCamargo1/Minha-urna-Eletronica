@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo Turno - Elições 2022</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SEGUNDO TURNO ELEIÇÕES 2022</h1>
+    </header>
+    <section> 
+        <div class="urna">
+             <div class="brasao-justica-eleiroral" ><img id="brasao" src="Brasao-removebg-preview.png" alt="Brasão da Justiça Eleioral"><h2 class="justica-eleitoral"><strong>Justiça <br> Eleitoral</strong></h2></div>
+             <span id="candidato" ></span>
+             <p class="nome" ></p>
+            <input id="number" type="number">
+            
+
+            <div class="bot">
+                <div class="ordem">
+                    <input  onclick="um()" id="um" class="bot-items" type="button" value="1">
+                    <input onclick="dois()" id="dois" class="bot-items" type="button" value="2">
+                    <input  onclick="tres()" id="três" class="bot-items" type="button" value="3">
+                </div>
+                <div class="ordem">
+                    <input class="bot-items" type="button" value="4">
+                    <input class="bot-items" type="button" value="5">
+                    <input class="bot-items" type="button" value="6">
+                </div>
+                <div class="ordem">
+                    <input class="bot-items" type="button" value="7">
+                    <input class="bot-items" type="button" value="8">
+                    <input class="bot-items" type="button" value="9">
+                </div>
+                <div id="ultima" class="ordem">
+                    <input class="bot-items" type="button" value="0">
+                    <div class="bot-confirma-corrige" >
+                        <input type="button" value="apagar" class="bot-items" id="corrige" >
+                        <input  type="button" value="confirmar" class="confirmar"id="confirmar" onclick="confirmar()">
+                    </div>
+                </div>
+                <div>
+                    <audio id="audio" src="somurna.ogg"></audio>
+                </div>
+
+
+            </div>
+        </div>
+    </section>  
+    <script src="eleições.js"></script>
+    
+</body>
+</html>
